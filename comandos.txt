@@ -1,2 +1,15 @@
 Comandos consola Linux
+
+clear -> limpiar
+sudo - i -> cambiar a root
+
+cd -> entrar al directorio
+cd .. -> retroceder un nivel
+cd ../.. -> retroceder dos niveles
+cd: -> directorio raiz
+cd ~user -> ir al directorio user
+pwd -> mostrar el camino de directorio
 ls -> listar
+ls -F -> ver ficheros de un directorio
+ls -l -> mostrar los detalles
+ls -a -> mostrar los ficheros ocultos
