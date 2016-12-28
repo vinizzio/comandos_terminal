@@ -30,4 +30,15 @@ ftp dominio.com
       get nombre.archivo -> bajar
       mget *.php
       quit -> salir
-      
+
+
+  Youtube-dl
+  sudo apt-get install youtube-dl
+  youtube-dl -x --audio-format mp3 http://www.youtube.com/watch?v=NlkQ1Uxn5BAD
+
+Impresoras en red
+  http://localhost:631
+
+Configurar audio
+  alsamixer
+  
