@@ -13,3 +13,21 @@ ls -> listar
 ls -F -> ver ficheros de un directorio
 ls -l -> mostrar los detalles
 ls -a -> mostrar los ficheros ocultos
+
+mogrify -resize 50% file.jpg -> redimenciona imagen al
+mogrify -resize 100x100 fie.jpg
+mogrify -resize 50% * -> reduce a la mitad todo
+
+FTP
+ftp dominio.com
+  ingrese el user
+  ingrese el pass
+  ftp> mkdir -> crea carpeta
+      chmod -> cambia permisos
+      del -> borra archivos
+      put nombre.archivo -> subir
+      mput *.php
+      get nombre.archivo -> bajar
+      mget *.php
+      quit -> salir
+      
