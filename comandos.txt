@@ -3,7 +3,7 @@ Comandos consola Linux
 clear -> limpiar
 sudo - i -> cambiar a root
 
-cd -> entrar al directorio
+cd -> entrar al directorio principal
 cd .. -> retroceder un nivel
 cd ../.. -> retroceder dos niveles
 cd: -> directorio raiz
@@ -13,10 +13,18 @@ ls -> listar
 ls -F -> ver ficheros de un directorio
 ls -l -> mostrar los detalles
 ls -a -> mostrar los ficheros ocultos
+mkdir -> crea carpetas
+mkdir nombreuno nombredos -> crea varias carpetas a la vez
 
 mogrify -resize 50% file.jpg -> redimenciona imagen al
 mogrify -resize 100x100 fie.jpg
 mogrify -resize 50% * -> reduce a la mitad todo
+
+man comando -> nos da el manual 
+nano nombre_del_archivo -> edit de texto
+nano nombre -> crea
+
+ln -s /home/vinizzio /home/vinizzio/link -> link virtual (acceso directo como un path en windows) ruta_inicio espacio ruta_destino
 
 FTP
 ftp dominio.com
@@ -41,4 +49,4 @@ Impresoras en red
 
 Configurar audio
   alsamixer
-  
+
