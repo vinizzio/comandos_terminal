@@ -61,3 +61,25 @@ sudo apt-get remove nombredelpaquete (para desinstalar paquetes)
 sudo apt-get remove --purge nombredelpaquete (incluira los archivos de configuracion del paquete)
 sudo apt-get help (ayuda)
 
+cuando tenemos descargado un archivo *.deb
+sudo dpkg -i nombredelpaquete.deb
+
+para desinstalar algun paquete deb (debian)
+sudo dpkg -r nombredelpaquete sin extencion
+
+cuando tenemos paquetes de tipo .rpm
+sudo alien nombredelpaquete.rpm
+
+cuando tenemos paquetes .run
+hay que darle permisos de ejecucion
+sudo chmod +x nombredelpaquete.run
+sudo ./xampp.run
+y lo instalamos como se lo hace en windows todo next
+
+
+/opt es donde estan los programas instalados
+
+para correr programas desde consola nos ubicamos en el directorio y ponemos
+./nombredelejecutable
+
+
