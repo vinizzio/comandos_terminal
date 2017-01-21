@@ -50,3 +50,14 @@ Impresoras en red
 Configurar audio
   alsamixer
 
+apt-get (sirve para instalar paquetes)
+sudo para terner permisos superusuario
+sudo apt-get install nombre_paquete
+
+sudo apt-get update si para ver  hay algo nuevo en los repositorios
+sudo aot-get upgrade para instalar las actualizaciones de repositorios
+
+sudo apt-get remove nombredelpaquete (para desinstalar paquetes)
+sudo apt-get remove --purge nombredelpaquete (incluira los archivos de configuracion del paquete)
+sudo apt-get help (ayuda)
+
