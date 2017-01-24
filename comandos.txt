@@ -82,4 +82,18 @@ y lo instalamos como se lo hace en windows todo next
 para correr programas desde consola nos ubicamos en el directorio y ponemos
 ./nombredelejecutable
 
+cuando tenemos un paquete de tipo .gz
+.gz es un archivo comprimido primero debemos descomprimir
+tar -xvf nombredelarchivo.gz
+entramos a la carpeta y buscamos el archivo de configuracion configure
+ejecutamos viene en color verde quiere decir que tiene permisos d ejecucion
+./configure
+make
+luego del proceso largo
+sudo make install
+e instala todos los paquetes
+
+cuando tenemos un paquete de tipo .sh
+debe tener permisos si no los tiene ponemos
+bash nombredelarchivo.sh
 
