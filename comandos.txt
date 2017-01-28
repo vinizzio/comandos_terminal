@@ -20,7 +20,7 @@ mogrify -resize 50% file.jpg -> redimenciona imagen al
 mogrify -resize 100x100 fie.jpg
 mogrify -resize 50% * -> reduce a la mitad todo
 
-man comando -> nos da el manual 
+man comando -> nos da el manual
 nano nombre_del_archivo -> edit de texto
 nano nombre -> crea
 
@@ -97,3 +97,11 @@ cuando tenemos un paquete de tipo .sh
 debe tener permisos si no los tiene ponemos
 bash nombredelarchivo.sh
 
+errores comunes con tarjeta nvidia
+
+ubuntu-MATE
+
+como crear bootable USB Drive
+sudo apt-get install gnome-disk-utility
+abrimos disco escogemos el usb y menu restore disk image
+apagar disco.
