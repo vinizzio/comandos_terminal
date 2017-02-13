@@ -122,4 +122,4 @@ para cerrar el proceso solo ponemos kill y el numero de proceso
 kill 2344
 ps -> permite manipular los procesos
 
-crontab crea un proceso en una fecha espesifica
+crontab crea un proceso en una fecha especifica
