@@ -123,3 +123,6 @@ kill 2344
 ps -> permite manipular los procesos
 
 crontab crea un proceso en una fecha especifica
+
+df -> muestra las particiones y espacio de disco
+free -> permite ver estado de la memoria ram
