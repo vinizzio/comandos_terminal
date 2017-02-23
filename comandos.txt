@@ -126,3 +126,10 @@ crontab crea un proceso en una fecha especifica
 
 df -> muestra las particiones y espacio de disco
 free -> permite ver estado de la memoria ram
+
+pipes
+lista elementos
+ls | sort -> lista en orden alfabetico
+ls | grep (busca coincidencias en los nombres) -> lista ese tipo de contenido
+tambien se puede buscar en el contenido de un archivo
+cat list | grep -i a (encuentra todas las a minusculas o mayusculas de archivo list)
