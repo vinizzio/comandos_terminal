@@ -133,3 +133,17 @@ ls | sort -> lista en orden alfabetico
 ls | grep (busca coincidencias en los nombres) -> lista ese tipo de contenido
 tambien se puede buscar en el contenido de un archivo
 cat list | grep -i a (encuentra todas las a minusculas o mayusculas de archivo list)
+
+xampp
+bajamos el instalador desde https://www.apachefriends.org/es/download.html
+ejecutamos desde consola e instalamos dandele atributos root
+todo next
+
+para ejecutar nos vamos a opt/lampp/
+ejecutamos sudo ./xampp start
+los proyectos se guardan en /opt/lampp/htdocs/
+entramos al directorio como root y creamos la carpeta para darle permisos
+para usar la ventana root usamos nautilus y nos abre una ventana como root
+y cambiamos los permisos nombre de usuario y users
+localhost
+localhost/phpmyadmin
