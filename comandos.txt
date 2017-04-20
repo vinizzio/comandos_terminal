@@ -147,3 +147,7 @@ para usar la ventana root usamos nautilus y nos abre una ventana como root
 y cambiamos los permisos nombre de usuario y users
 localhost
 localhost/phpmyadmin
+error de acceso mysql
+sudo service mysql stop
+sudo /opt/lampp/lampp start
+arranca
