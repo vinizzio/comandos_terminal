@@ -151,3 +151,16 @@ error de acceso mysql
 sudo service mysql stop
 sudo /opt/lampp/lampp start
 arranca
+
+error Initramfs de arranque
+paso 1.
+arranca con live Usb So
+paso 2.
+en el terminal
+sudo fdisk -l
+paso 3.
+sudo fsck /dev/sda1
+
+otro caso
+sudo mount /dev/sda1 /mnt
+reiniciamos y listo
